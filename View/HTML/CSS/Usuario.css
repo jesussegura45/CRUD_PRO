@@ -1,0 +1,108 @@
+/* Estilos para la encabezado */
+header {
+    background: linear-gradient(to right, #007bff, #00bfff); /* Gradiente azul */
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilos para la navegación */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  nav ul li a:hover {
+    border-color: #fff; /* Color del borde al pasar el cursor */
+    transform: translateY(-3px); /* Movimiento hacia arriba al pasar el cursor */
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #495057; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #007bff; /* Azul */
+}
+
+form {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #007bff; /* Azul */
+}
+
+input, select {
+    width: 70%; /* Ancho del campo reducido en un 30% */
+    padding: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Borde delgado gris */
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Texto blanco */
+}
